@@ -1,0 +1,25 @@
+{
+  "name": "guacamole-websocket",
+  "version": "1.0.0",
+  "description": "Guacamole WebSocket bridge",
+  "main": "build/app.js",
+  "scripts": {
+    "start": "node build/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node-config-ts && npx tsc --outdir build"
+  },
+  "author": "Denis Kramer",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "guacamole-lite": "^0.7.1",
+    "node-config-ts": "3.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "@types/webpack": "4.x",
+    "webpack": "4.x"
+  }
+}

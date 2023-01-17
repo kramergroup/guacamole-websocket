@@ -1,0 +1,7 @@
+{
+  "guacd" : {
+    "host": "@@GUACD_HOST",
+    "port": "@@GUACD_PORT"
+  },
+  "token": "@@GUACAMOLE_PASSWORD"
+}
